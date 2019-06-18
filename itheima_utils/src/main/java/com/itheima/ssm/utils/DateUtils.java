@@ -9,6 +9,7 @@ public class DateUtils {
         SimpleDateFormat sdf = new SimpleDateFormat(patt);
         String format = sdf.format(date);
         return format;
+        //注释测试
     }
 
     public static Date stringToDate(String str,String patt) throws ParseException {
